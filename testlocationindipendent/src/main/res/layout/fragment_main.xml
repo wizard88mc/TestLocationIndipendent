@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.testlocationindipendent.MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:text="Vettore m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Large"/>
+
+        <TextView
+            android:id="@+id/xMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:paddingRight="15dip"/>
+
+        <TextView
+            android:id="@+id/yMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:paddingRight="15dip"/>
+
+        <TextView
+            android:id="@+id/zMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z: "
+            android:paddingRight="15dip"/>
+
+        <TextView
+            android:id="@+id/normaMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Norma: "
+            android:paddingRight="15dip"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="25dip"
+        android:background="#C0C0C0"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vettore D delle sottrazioni"
+        style="@android:style/TextAppearance.Large"/>
+
+        <TextView
+            android:id="@+id/xVettoreD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:paddingRight="15dip"/>
+
+        <TextView
+            android:id="@+id/yVettoreD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:paddingRight="15dip"/>
+
+        <TextView
+            android:id="@+id/zVettoreD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z: "
+            android:paddingRight="15dip"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="25dip"
+        android:background="#C0C0C0"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vettore Linear Acceleration"
+        style="@android:style/TextAppearance.Large"/>
+
+        <TextView
+            android:id="@+id/xLinearAcceleration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:paddingRight="15dip"/>
+
+        <TextView
+            android:id="@+id/yLinearAcceleration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:paddingRight="15dip"/>
+
+        <TextView
+            android:id="@+id/zLinearAcceleration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z: "
+            android:paddingRight="15dip"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="25dip"
+        android:background="#C0C0C0"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotation Vector"
+        style="@android:style/TextAppearance.Large"/>
+
+        <TextView
+            android:id="@+id/xRotationVector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X: "
+            android:paddingRight="15dip"/>
+
+        <TextView
+            android:id="@+id/yRotationVector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y: "
+            android:paddingRight="15dip"/>
+
+        <TextView
+            android:id="@+id/zRotationVector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z: "
+            android:paddingRight="15dip"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="25dip"
+        android:background="#C0C0C0"></LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Recording"
+        android:onClick="startRecording"/>
+
+</LinearLayout>
